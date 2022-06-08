@@ -18,16 +18,16 @@ import com.example.repo.UserRepository;
 public class UserController {
 	
 	@Autowired
-	private UserRepository userRepository;
+	private UserRepository userRepo;
 	
 	@GetMapping("/users")
 	public List<User> getUsers(){
-		return (List<User>) userRepository.findAll();
+		return (List<User>) userRepo.findAll();
 	}
 	
 	@PostMapping("/users")
 	public User addUser(@RequestBody User user) {
 		
-		return userRepository.save(user);
+		return userRepo.save(user);
 	}  
 }
