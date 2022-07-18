@@ -28,12 +28,5 @@ public class UserRestApiApplication {
 //            userRepo.findAll().forEach(System.out::println);
 //        };
 //    }
-	//This is what I modified
-	//This is the modified version on feature/GWM6009 branch
-	//This is the second branch feature/GWM7002 branch
-	//This is the fourth change
-	//This is the fifth change
-	//This is the sixth change, modified on bitbucket repo directly,then modified on local
-	//This is the seventh change, modified on bitbucket feature/TestBranch directly,,then modified on local back
-	//This is the eighth change
+
 }
